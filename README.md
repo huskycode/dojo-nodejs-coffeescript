@@ -1,7 +1,7 @@
 dojo-nodejs-coffeescript
 =============
 
-A codebase to use for HuskyCode's dojo. These topics are planned to cover. 
+A codebase to use for HuskyCode's dojo. These topics are planned to be covered. 
 
 1. NodeJS Anatomy
 2. CoffeeScript
