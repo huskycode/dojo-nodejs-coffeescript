@@ -12,7 +12,7 @@ A codebase to use for HuskyCode's dojo. These topics are planned to be covered.
 How to Install NodeJS
 ---
 
-Refer to [INSTALL.md](https://github.com/huskycode/node-template/blob/master/INSTALL.md)
+Refer to [INSTALL.md](https://raw.github.com/huskycode/node-template/master/INSTALL.md)
 
 Details
 ----
