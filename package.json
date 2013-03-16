@@ -1,0 +1,17 @@
+{
+  "name": "dojo-nodejs-coffeescript",
+  "description": "dojo-nodejs-coffeescript",
+  "version": "0.0.1",
+  "dependencies": {
+  }, "devDependencies": {
+      "coffee-script": "*"
+    , "mocha": "*"
+    , "should": "*"
+    , "supervisor": "*"
+    , "chai": "1.5.x"
+    , "sinon": "1.6.x"
+    , "shelljs": "*"
+  },
+  "scripts": {
+  }
+}

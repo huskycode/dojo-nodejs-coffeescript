@@ -7,12 +7,12 @@ config = {
     , mainDir: "src/main"
     , testDir: "src/test"
     , buildDir: "build"
-    , globalReqs: ["supervisor", "mocha", "docco"]
+    , globalReqs: ["supervisor", "mocha", "docco", "nodemon"]
 }
 
 # Helpers
 isRootInUbuntu = -> exec("whoami", {silent:true}).output == 'root'
-needsSudo = -> (process.platform == 'linux')
+needsSudo = -> (process.platform == 'linux') && (exec("hostname", {silent:true}).output.indexOf('c9-node') == -1) #detects if we are on cloud9
 isEnoughPriv =  -> ( !needsSudo() || isRootInUbuntu() ) 
 
 globalPkgInstallCommand = (pkg, withSudo) -> (if(withSudo) then "sudo " else "") + "npm install #{pkg} -g"
