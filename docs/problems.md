@@ -2,10 +2,16 @@ Intro
 ===
 1. Intro to NodeJS
 2. Intro to CoffeeScript
+3. Basic CoffeeScript constructs. (Variable, functions, objects)
 3. How to execute CoffeeScript
 
 Problem Statements
 ====
+(0) Hello world
+
+    Output: Hello World!
+    
+    Bonus: How do we test it?
 
 (1) Basic Addition
 

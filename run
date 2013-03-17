@@ -1,1 +1,1 @@
-coffee src/main/main.coffee $@
+coffee src/main/app.coffee $@
