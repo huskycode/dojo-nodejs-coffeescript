@@ -62,5 +62,4 @@ target.all = ->
   target.dev()
 
 target.dev = ->
-  target.ensureReqs()
-  exec("supervisor -w src -e 'js|coffee' app")
+  exec("coffee src/main/main.coffee")
