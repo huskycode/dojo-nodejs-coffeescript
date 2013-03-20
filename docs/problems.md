@@ -12,15 +12,20 @@ Problem Statements
     Output: Hello World!
     
     Bonus: How do we test it?
+    
+(1) Echo
+    
+    Input: abc
+    Output: Hello abc!
 
-(1) Basic Addition
+(2) Basic Addition
 
-    Input: node calc "1+2" 
+    Input: "1+2" 
     Output: "3"
     
-(2) Implements (-,*,/)
+(3) Implements (-,*,/)
     
-(3) Input from command line
+(4) Input from command line
 
     Input: node calc
     Output: 
